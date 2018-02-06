@@ -1,0 +1,7 @@
+# Cache files #
+###############
+*.pyc
+
+# IDE files #
+#############
+.idea
