@@ -1,5 +1,5 @@
-A Sample Python REST Application
-********************************
+# A Sample Python REST Application
+**********************************
 -- uses flask
 -- uses docker
 
@@ -33,7 +33,6 @@ $ docker images --no-trunc -aqf "dangling=true" | xargs docker rmi
 
 Example Commands to interact with the App:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 # start the application
 ./bootstrap.sh &
 
@@ -54,3 +53,12 @@ curl -X POST -H "Content-Type: application/json" -d '{
     "amount": 300.0,
     "description": "loan payment"
 }' http://localhost:5000/incomes
+
+Git Commands:
+~~~~~~~~~~~~~
+echo "# CashMan" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:Sudhakar7777777/CashMan.git
+git push -u origin master
